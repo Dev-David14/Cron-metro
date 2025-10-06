@@ -1,0 +1,43 @@
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do título */
+h1 {
+    color: #333;
+}
+
+/* Estilização do cronômetro */
+#cronometro {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Estilização dos botões */
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilização específica para o botão "Ligar Cronômetro" quando pausado */
+#start[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
